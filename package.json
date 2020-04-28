@@ -1,0 +1,36 @@
+{
+    "name": "home-infoboard",
+    "version": "1.0.0",
+    "description": "\"# home-infoboard\"",
+    "main": "index.js",
+    "scripts": {
+      "clean": "rm -rf dist/",
+      "build:css": "sass scss/main.scss src/static/css/main.min.css --style=compressed",
+      "prebuild": "npm run-script clean",
+      "build": "npm run-script build:css && cp -r --verbose src/ dist/",
+      "postbuild": "mogrify -strip -quality 90 -resize 1920 -density 72 -units pixelsperinch -interlace Plane dist/static/images/bg/*.jpg && mogrify -strip -quality 90 -resize 500x350^ -interlace Plane dist/static/images/team/*.jpg && mogrify -strip -quality 80 -resize 1024 -interlace Plane dist/static/images/projects/**/*/*.jpg dist/static/images/projects/**/*.jpg",
+      "deploy": "rsync -r -v  --delete dist/. www.fschaeffeler.de@ssh.strato.de:home-infoboard/",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/robertobernabe/home-infoboard.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
+    "dependencies": {
+      "@fortawesome/fontawesome-free": "^5.10.2",
+      "bootstrap": "^4.3.1",
+      "jquery": "^1.12.4",
+      "popper.js": "^1.16.0"
+    },
+    "devDependencies": {
+      "sass": "^1.22.12",
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.10"
+    }
+  }

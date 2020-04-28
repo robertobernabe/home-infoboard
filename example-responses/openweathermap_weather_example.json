@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 9.62,
+        "lat": 47.78
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "Leichter Regen",
+            "icon": "10d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 15.3,
+        "feels_like": 13.89,
+        "temp_min": 13.89,
+        "temp_max": 16,
+        "pressure": 1007,
+        "humidity": 77
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.6,
+        "deg": 250
+    },
+    "rain": {
+        "1h": 0.13
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1588083297,
+    "sys": {
+        "type": 1,
+        "id": 1310,
+        "country": "DE",
+        "sunrise": 1588046898,
+        "sunset": 1588098562
+    },
+    "timezone": 7200,
+    "id": 2849802,
+    "name": "Ravensburg",
+    "cod": 200
+}
