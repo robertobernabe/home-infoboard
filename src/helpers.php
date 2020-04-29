@@ -14,6 +14,9 @@ foreach ($vcalendar->VEVENT as $item) {
     echo $item->DTSTART->getDateTime()->format(\DateTime::ATOM) . "\n";
 } */
 
+require __DIR__ . '/../vendor/autoload.php';
+//include '/../vendor/autoload.php';
+
 $OPEN_WEATHER_API_KEY = "5d524f5a27a08057dc4a328dd02eb39d";
 $CITY = "Ravensburg,DE";
 
@@ -56,6 +59,6 @@ echo "Preferred locale for german on this system is '$loc_de'";
 echo '<br/>' . strftime("%A %d %B %Y", mktime(0, 0, 0, 12, 22, 1978));
 
 $weather_data_forecast = get_weather_forecast($CITY);
-$weather_data = get_weather($CITY);
+$weather_data = new OpenWeatherMapWeatherJson(get_weather($CITY));
 $currentTime = time();
 //var_dump($weather_data);

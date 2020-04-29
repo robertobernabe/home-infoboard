@@ -21,26 +21,25 @@ require('helpers.php')
 <body>
     <h1>Home Infoboard</h1>
 
-    <h2>Wetter <?php echo $weather_data->name; ?></h2>
+    <h2>Wetter <?php echo $weather_data->getName(); ?></h2>
     <div class="weather-report-container">
         <div class="time">
             <div><?php echo date(DateTimeInterface::RFC850, $currentTime); ?></div>
         </div>
         <div class="weather-today">
-            <img src="http://openweathermap.org/img/w/<?php echo $weather_data->weather[0]->icon; ?>.png" class="weather-icon" />
-            <span><?php echo $weather_data->weather[0]->description; ?></span>
+            <img src="<?php echo $weather_data->getWeatherIcon(); ?>" class="weather-icon" />
+            <span><?php echo $weather_data->getDescription(); ?></span>
 
-            <span>Max: <?php echo $weather_data->main->temp_max; ?>&deg;C</span>
-            <span class="min-temperature">Min: <?php echo $weather_data->main->temp_min; ?>&deg;C</span>
+            <span>Max: <?php echo $weather_data->getTemperatureMax(); ?>&deg;C</span>
+            <span class="min-temperature">Min: <?php echo $weather_data->getTemperatureMin(); ?>&deg;C</span>
             <div>
-                <span>Luftfeuchtigkeit: <?php echo $weather_data->main->humidity; ?> %</span>
-                <span>Windgeschwindkeit: <?php echo $weather_data->wind->speed; ?> km/h</span>
+                
             </div>
         </div>
         <div class="weather-forecast">
             <?php
                 foreach($weather_data_forecast->list as $f) {
-                    var_dump($f);
+                    //var_dump($f);
                 }
             ?>
         </div>
@@ -48,7 +47,7 @@ require('helpers.php')
 
     </div>
     <h2>Kalender</h2>
-    <div>
+    <div class="calendar-today">
 
     </div>
     <!-- Optional JavaScript -->
