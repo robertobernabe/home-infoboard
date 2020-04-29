@@ -1,4 +1,7 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
+
 use PHPUnit\Framework\TestCase;
 
 final class OpenWeatherMapTest extends TestCase
@@ -20,7 +23,6 @@ final class OpenWeatherMapTest extends TestCase
         $this->assertEquals("http://openweathermap.org/img/w/10d.png", $ow->getWeatherIcon());
         echo $ow->getWeatherIcon();
         $this->assertEquals($ow->getDescription(), "Leichter Regen");
-
     }
 
     public function testCreateOpenWeatherMapForecastInstance(): void
@@ -34,8 +36,17 @@ final class OpenWeatherMapTest extends TestCase
             $ow
         );
 
+        $data = $ow->getDayDataFrom(strtotime("2020-04-28"));
+        $this->assertIsArray($data);
+        $this->assertEquals(3, count($data));
 
+
+        $data = $ow->getDayDataFrom(strtotime("2020-04-29"));
+        $this->assertIsArray($data);
+        $this->assertEquals(8, count($data));
+
+        $data = $ow->getDayDataFrom(strtotime("2020-04-28"), strtotime("2020-04-29"));
+        $this->assertIsArray($data);
+        $this->assertEquals(8 + 3, count($data));
     }
-
-
 }

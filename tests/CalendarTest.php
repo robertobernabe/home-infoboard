@@ -1,4 +1,7 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
+
 use PHPUnit\Framework\TestCase;
 
 final class CalendarTest extends TestCase
@@ -23,5 +26,4 @@ final class CalendarTest extends TestCase
             $cal
         );
     }
-
 }
