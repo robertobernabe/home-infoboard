@@ -1,5 +1,6 @@
 {
-    "name": "home-infoboard",
+    "name": "home_infoboard",
+    "vendor": "fschaeffeler",
     "license": "proprietary",
 
     "autoload": {
