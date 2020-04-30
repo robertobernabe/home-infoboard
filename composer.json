@@ -4,8 +4,8 @@
     "license": "proprietary",
 
     "scripts": {
-        "testsVerbose": "@tests -vvv",
-        "tests": "phpunit tests/ -vvv"
+        "tests": "@test",
+        "test": "vendor/bin/phpunit --verbose --log-junit=junit.xml tests/"
       },
 
 
