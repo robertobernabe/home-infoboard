@@ -1,7 +1,13 @@
 {
-    "name": "home_infoboard",
-    "vendor": "fschaeffeler",
+    "name": "fschaeffeler/home_infoboard",
+    "description": "Our home info board",
     "license": "proprietary",
+
+    "scripts": {
+        "testsVerbose": "@tests -vvv",
+        "tests": "phpunit tests/ -vvv"
+      },
+
 
     "autoload": {
         "classmap": [
