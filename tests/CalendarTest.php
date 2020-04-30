@@ -6,6 +6,16 @@ use PHPUnit\Framework\TestCase;
 
 final class CalendarTest extends TestCase
 {
+    protected $instance;
+
+    protected function setUp(): void
+    {
+        $HERE = dirname(__FILE__);
+        $testFilePath = "{$HERE}/data/basic.ics";
+        $this->instance  = new Calendar($testFilePath);
+    }
+
+
     public function testCreateCalendarInstanceOfString(): void
     {
         $HERE = dirname(__FILE__);
@@ -18,12 +28,9 @@ final class CalendarTest extends TestCase
 
     public function testCreateCalendarInstance(): void
     {
-        $HERE = dirname(__FILE__);
-        $testFilePath = "{$HERE}/data/basic.ics";
-        $cal = new Calendar($testFilePath);
         $this->assertInstanceOf(
             Calendar::class,
-            $cal
+            $this->instance
         );
     }
 }

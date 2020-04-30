@@ -4,8 +4,11 @@
     "license": "proprietary",
 
     "scripts": {
+        "clean": "rm -rf dist/",
+        "build": ["@clean" ,"cp -r --verbose src/ dist/", "cp composer.json composer.lock dist/", "cd dist/ && composer install --no-dev"],
+        "deploy": "rsync -r -v  --delete dist/. www.fschaeffeler.de@ssh.strato.de:home-infoboard/",
         "tests": "@test",
-        "test": "vendor/bin/phpunit --verbose --log-junit=junit.xml tests/"
+        "test": "vendor/bin/phpunit -vvv --log-junit=junit.xml tests/"
       },
 
 
