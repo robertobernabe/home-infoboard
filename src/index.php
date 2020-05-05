@@ -15,40 +15,69 @@ require('helpers.php')
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Home Infoboard!</title>
+    <title>Home Infoboard</title>
 </head>
 
 <body>
-    <h1>Home Infoboard</h1>
+    <div class="container-fluid">
+        <div class="weather-report-container">
+            <h2>Wetter <?php echo $weather_data->getName(); ?></h2>
+            <div class="time">
+                <div><?php echo date(DateTimeInterface::RFC850, $currentTime); ?></div>
+            </div>
+            <div class="weather-today">
+                <img src="<?php echo $weather_data->getWeatherIcon(); ?>" class="weather-icon" />
+                <span><?php echo $weather_data->getDescription(); ?></span>
 
-    <h2>Wetter <?php echo $weather_data->getName(); ?></h2>
-    <div class="weather-report-container">
-        <div class="time">
-            <div><?php echo date(DateTimeInterface::RFC850, $currentTime); ?></div>
-        </div>
-        <div class="weather-today">
-            <img src="<?php echo $weather_data->getWeatherIcon(); ?>" class="weather-icon" />
-            <span><?php echo $weather_data->getDescription(); ?></span>
+                <span>Max: <?php echo $weather_data->getTemperatureMax(); ?>&deg;C</span>
+                <span class="min-temperature">Min: <?php echo $weather_data->getTemperatureMin(); ?>&deg;C</span>
+                <div>
 
-            <span>Max: <?php echo $weather_data->getTemperatureMax(); ?>&deg;C</span>
-            <span class="min-temperature">Min: <?php echo $weather_data->getTemperatureMin(); ?>&deg;C</span>
-            <div>
-                
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <div class="container">
+                    <div class="row">
+                        <?php
+                        foreach ($weather_data_forecast->list as $f) {
+                            //var_dump($f);
+                            echo "<div class=\"col-sm\">:)</div>";
+                        }
+                        ?>
+
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="weather-forecast">
-            <?php
-                foreach($weather_data_forecast->list as $f) {
-                    //var_dump($f);
-                }
-            ?>
+
+        <div class="calendar-today">
+            <h2>Kalender</h2>
         </div>
-    </div>
 
-    </div>
-    <h2>Kalender</h2>
-    <div class="calendar-today">
+        <div class="rss-feeds">
+            <h2>Rss Feeds</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Datum</th>
+                    </tr>
+                </thead>
+                <tbody>
 
+                    <?php
+                    foreach ($rssFeeds->getEntries() as $entry) {
+
+                        echo "<tr>";
+                        echo "<td>" . $entry->title . "</td>";
+                        echo "<td>" . $entry->pubDate . "</td>";
+                        echo "</tr>";
+                    }
+                    ?>
+                </tbody>
+            </table>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
