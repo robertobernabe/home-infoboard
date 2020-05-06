@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>ZEIT ONLINE | Nachrichten, Hintergründe und Debatten</title>
+    <link>https://www.zeit.de/index</link>
+    <description>Aktuelle Nachrichten, Kommentare, Analysen und Hintergrundberichte aus Politik, Wirtschaft, Gesellschaft, Wissen, Kultur und Sport lesen Sie auf ZEIT ONLINE. Aktuelle Nachrichten, Kommentare, Analysen und Hintergrundberichte aus Politik, Wirtschaft, Gesellschaft, Wissen, Kultur und Sport lesen Sie auf ZEIT.de. Aktuelle Nachrichten, Kommentare, Analysen und Hintergrundberichte aus Politik, Wirtschaft, Gesellschaft, Wissen, Kultur und Sport lesen Sie bei der ZEIT. Aktuelle Nachrichten, Kommentare, Analysen und Hintergrundberichte aus Politik, Wirtschaft, Gesellschaft, Wissen, Kultur und Sport – die ZEIT. Aktuelle News, Kommentare, Analysen und Hintergrundberichte aus Politik, Wirtschaft, Gesellschaft, Wissen, Kultur und Sport lesen Sie auf ZEIT ONLINE.</description>
+    <language>de-de</language>
+    <copyright>Copyright © 2020, ZEIT ONLINE GmbH</copyright>
+    <atom:link href="https://newsfeed.zeit.de/index" type="application/rss+xml"/>
+    <docs>https://www.zeit.de/hilfe/rss</docs>
+    <generator>zeit.web 3.546</generator>
+    <managingEditor>online-cr@zeit.de (Chefredaktion ZEIT ONLINE)</managingEditor>
+    <webMaster>webmaster@zeit.de (Technik ZEIT ONLINE)</webMaster>
+    <image>
+      <url>https://img.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>ZEIT ONLINE | Nachrichten, Hintergründe und Debatten</title>
+      <link>https://www.zeit.de/index</link>
+    </image>
+    <item>
+      <title>Coronavirus: Bund will Öffnung aller Geschäfte in Deutschland erlauben</title>
+      <link>https://www.zeit.de/wissen/gesundheit/2020-04/coronavirus-aktuell-infektionen-ausbreitung-live</link>
+      <description>&lt;a href="https://www.zeit.de/wissen/gesundheit/2020-04/coronavirus-aktuell-infektionen-ausbreitung-live"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/wirtschaft/unternehmen/2020-05/lockerung-coronavirus-massnahmen-einzelhandel-alle-geschaefte-bild/wide__148x84"&gt;&lt;/a&gt; Kanzlerin Angela Merkel plant weitreichende Lockerungen. Die Zahl der Hartz-IV-Haushalte soll Schätzungen zufolge im nächsten Halbjahr stark ansteigen. Das Newsblog</description>
+      <category>Gesundheit</category>
+      <dc:creator>ZEIT ONLINE: Gesundheit - Vera Sprothen, Imre Balzer, Sarah Lena Grahn</dc:creator>
+      <pubDate>Wed, 06 May 2020 04:11:31 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:377ca884-bdae-465e-817c-913f696c2fb8}</guid>
+    </item>
+    <item>
+      <title>Homeschooling: Das Klassenzimmer ist wichtig – die Cloud aber auch</title>
+      <link>https://www.zeit.de/gesellschaft/schule/2020-05/homeschooling-schule-oeffnugen-online-unterricht-lehrerinnen</link>
+      <description>&lt;a href="https://www.zeit.de/gesellschaft/schule/2020-05/homeschooling-schule-oeffnugen-online-unterricht-lehrerinnen"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/gesellschaft/schule/2020-05/schule-abstandsregeln-2/wide__148x84"&gt;&lt;/a&gt; Eine Umfrage unter Lehrerinnen zeigt: Digitaler Unterricht muss professioneller werden. Denn er bleibt wichtig, selbst wenn die Schulen schrittweise wieder öffnen.</description>
+      <category>Schule</category>
+      <dc:creator>ZEIT ONLINE: Schule - Parvin Sadigh</dc:creator>
+      <pubDate>Wed, 06 May 2020 04:09:50 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:c2b61358-7f17-4ad6-a8da-40129e0c1975}</guid>
+    </item>
+    <item>
+      <title>Lockerungen: Alte Menschen nicht zu schützen ist ethisch unvertretbar</title>
+      <link>https://www.zeit.de/wissen/2020-05/lockerungen-corona-massnahmen-lockdown-oeffnungen-schulen-alexander-kekule</link>
+      <description>&lt;a href="https://www.zeit.de/wissen/2020-05/lockerungen-corona-massnahmen-lockdown-oeffnungen-schulen-alexander-kekule"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/wissen/gesundheit/2020-05/corona-lockerungen-alte-vorerkrankte-risikogruppen/wide__148x84"&gt;&lt;/a&gt; Es wäre riskant, Kitas, Schulen und Geschäfte jetzt noch weitreichender zu öffnen. Es sei denn, man hat einen langfristigen, smarten Plan. So könnte er aussehen.</description>
+      <category>Gesundheit</category>
+      <dc:creator>ZEIT ONLINE: Gesundheit - Alexander S. Kekulé</dc:creator>
+      <pubDate>Wed, 06 May 2020 04:07:54 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:4088f528-2c46-4b5f-9312-513356339792}</guid>
+    </item>
+    <item>
+      <title>Coronavirus: Ist der Föderalismus ein Verlierer dieser Krise?</title>
+      <link>https://www.zeit.de/politik/2020-05/coronavirus-foederalismus-deutschland-europa-nachrichtenpodcast</link>
+      <description>&lt;a href="https://www.zeit.de/politik/2020-05/coronavirus-foederalismus-deutschland-europa-nachrichtenpodcast"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/politik/2017-09/illu-podcast-news/wide__148x84"&gt;&lt;/a&gt; Bei den Lockerungen überbieten sich die Länder - entgegen ihrer Absprachen. Außerdem: Was wäre, wenn Deutschland die Stationierung von Atombomben ausschlösse? </description>
+      <category>Politik</category>
+      <dc:creator>ZEIT ONLINE: Politik - Fabian Scheler</dc:creator>
+      <pubDate>Wed, 06 May 2020 04:01:13 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:2a8d040c-eb55-4dff-a219-adddcdb671a9}</guid>
+    </item>
+    <item>
+      <title>Conona-Krise und Wirtschaft: Bange Erwartungen an die EU-Konjunktur</title>
+      <link>https://www.zeit.de/wirtschaft/unternehmen/2020-05/eu-konjunkturprognose-wirtschaft-corona-krise</link>
+      <description>&lt;a href="https://www.zeit.de/wirtschaft/unternehmen/2020-05/eu-konjunkturprognose-wirtschaft-corona-krise"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/wirtschaft/unternehmen/2020-05/eu-konjunkturbericht-wirtschaft-coronavirus-bild/wide__148x84"&gt;&lt;/a&gt; Wie schwer hat die Corona-Krise die europäische Wirtschaft getroffen? Die neueste Konjunkturprognose der EU-Komission dürfte ein düsteres Bild zeichnen.</description>
+      <category>Unternehmen</category>
+      <dc:creator>ZEIT ONLINE: Unternehmen - Vera Sprothen</dc:creator>
+      <pubDate>Wed, 06 May 2020 02:36:25 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:6ac3a6dc-7865-481b-bac2-5c143851fbfa}</guid>
+    </item>
+    <item>
+      <title>Bürgerkrieg: Israel verweigert militärischen Rückzug aus Syrien </title>
+      <link>https://www.zeit.de/politik/ausland/2020-05/buergerkrieg-israel-iran-syrien-naftali-bennett</link>
+      <description>&lt;a href="https://www.zeit.de/politik/ausland/2020-05/buergerkrieg-israel-iran-syrien-naftali-bennett"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/politik/ausland/2020-05/buergerkrieg-israel-iran-syrien-naftali-bennett-bild/wide__148x84"&gt;&lt;/a&gt; Verteidigungsminister Naftali Bennett will die Raketenangriffe nur beenden, wenn sich auch der Iran aus Syrien zurückzieht. Er sieht sein Land bedroht.</description>
+      <category>Ausland</category>
+      <dc:creator>ZEIT ONLINE: Ausland - </dc:creator>
+      <pubDate>Wed, 06 May 2020 01:26:13 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:69a56cd2-4a3d-4dcb-8642-d524f0f02f10}</guid>
+    </item>
+    <item>
+      <title>Homeschooling: Warum ist Deutschland beim digitalen Unterricht so ambitionslos?</title>
+      <link>https://www.zeit.de/gesellschaft/schule/2020-05/homeschooling-neuseeland-deutschland-schule-online-unterricht-probleme</link>
+      <description>&lt;a href="https://www.zeit.de/gesellschaft/schule/2020-05/homeschooling-neuseeland-deutschland-schule-online-unterricht-probleme"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/gesellschaft/schule/2020-05/homeschooling-neuseeland-deutschland-schule-online-unterricht-probleme-2/wide__148x84"&gt;&lt;/a&gt; Heimunterricht in Deutschland scheitert an Arbeitsblättern und der DSGVO. Ganz anders Neuseeland: wo Kinder Laptops bekommen und TV-Sender Unterrichtsstunden senden.</description>
+      <category>Schule</category>
+      <dc:creator>ZEIT ONLINE: Schule - Verena Friederike Hasel</dc:creator>
+      <pubDate>Tue, 05 May 2020 19:14:30 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:cd1308f1-8155-43bd-b1a9-1f9a274e7681}</guid>
+    </item>
+    <item>
+      <title>Die Linke: Gregor Gysi zu außenpolitischem Sprecher der Linksfraktion gewählt</title>
+      <link>https://www.zeit.de/politik/deutschland/2020-05/die-linke-gregor-gysi-aussenpolitischer-sprecher</link>
+      <description>&lt;a href="https://www.zeit.de/politik/deutschland/2020-05/die-linke-gregor-gysi-aussenpolitischer-sprecher"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/politik/ausland/2020-05/die-linke-gregor-gysi/wide__148x84"&gt;&lt;/a&gt; Vor fünf Jahren hatte er sich als Fraktionschef zurückgezogen, nun wird Gregor Gysi außenpolitischer Sprecher der Linke-Fraktion. Er folgt auf Stefan Liebich.</description>
+      <category>Deutschland</category>
+      <dc:creator>ZEIT ONLINE: Deutschland - </dc:creator>
+      <pubDate>Tue, 05 May 2020 19:09:32 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:6f208003-484b-4da6-a301-4fa9fa2ad7cb}</guid>
+    </item>
+    <item>
+      <title>Remdesivir gegen Corona: Wie sicher ist dieses Mittel, von dem alle reden?</title>
+      <link>https://www.zeit.de/wissen/gesundheit/2020-05/remdesivir-corona-medikament-heilung-covid-19-patent-usa-zulassung</link>
+      <description>&lt;a href="https://www.zeit.de/wissen/gesundheit/2020-05/remdesivir-corona-medikament-heilung-covid-19-patent-usa-zulassung"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/wissen/gesundheit/2020-05/remdesivir-corona-medikament-heilung-covid-19-patent-usa-zulassung-bild/wide__148x84"&gt;&lt;/a&gt; Es weckt große Hoffnungen im Kampf gegen Covid-19: das Mittel Remdesivir. Wie gut es wirkt und was für Nebenwirkungen es hat, ist noch unsicher. Was Studien bisher zeigen</description>
+      <category>Gesundheit</category>
+      <dc:creator>ZEIT ONLINE: Gesundheit - Edda Grabar</dc:creator>
+      <pubDate>Tue, 05 May 2020 19:04:45 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:c17b67e1-752d-4d49-9c00-475c5b815503}</guid>
+    </item>
+    <item>
+      <title>Treue: Folgeschäden</title>
+      <link>https://www.zeit.de/2020/19/giovanni-boccaccio-das-dekameron-projekt-novellensammlung-pest</link>
+      <description>&lt;a href="https://www.zeit.de/2020/19/giovanni-boccaccio-das-dekameron-projekt-novellensammlung-pest"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/2020/19/folgeschaeden-bild-1/wide__148x84"&gt;&lt;/a&gt; Außer seiner Eliza wollte er nie etwas anderes, als unbeschadet durchs Leben zu kommen. Nur hieß er Goldman. Sechster Teil der Neuauflage von Boccaccios "Dekameron". </description>
+      <category>Entdecken</category>
+      <dc:creator>ZEIT ONLINE: Entdecken - Eva Menasse</dc:creator>
+      <pubDate>Tue, 05 May 2020 18:56:57 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:1f88cbbe-12d0-4a28-8806-9aef80d59e7f}</guid>
+    </item>
+    <item>
+      <title>Spielekonsolen: Der große Konsolen-Guide für Anfänger</title>
+      <link>https://www.zeit.de/digital/games/2020-05/spielekonsolen-videospiele-gaming-konsolenkauf-spiele-einsteiger-tipps</link>
+      <description>&lt;a href="https://www.zeit.de/digital/games/2020-05/spielekonsolen-videospiele-gaming-konsolenkauf-spiele-einsteiger-tipps"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/digital/2020-05/spielekonsolen-videospiele-gaming-konsolenkauf-spiele-einsteiger-tipps-bild/wide__148x84"&gt;&lt;/a&gt; Endlich Zeit für Videospiele. Aber soll es eine Xbox, Switch oder PlayStation sein? Alle Geräte und passende Spiele im Überblick, sodass Sie gleich loslegen können.</description>
+      <category>Games</category>
+      <dc:creator>ZEIT ONLINE: Games - Eike Kühl</dc:creator>
+      <pubDate>Tue, 05 May 2020 18:26:01 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:b5fb28c3-b0d2-4a29-a647-f59756bf2c88}</guid>
+    </item>
+    <item>
+      <title>Verschwörungstheorien: Meine Vorfahren, die Aliens</title>
+      <link>https://www.zeit.de/kultur/2020-05/verschwoerungstheorien-ideologien-syrien-ausserirdische-illuminaten</link>
+      <description>&lt;a href="https://www.zeit.de/kultur/2020-05/verschwoerungstheorien-ideologien-syrien-ausserirdische-illuminaten"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/kultur/2020-05/verschwoerungstheorien-ideologien-syrien-ausserirdische-teaser/wide__148x84"&gt;&lt;/a&gt; Ost gegen West, Außerirdische gegen Menschen, Regierungen gegen Bürger. Verschwörungstheorien entstehen aus Angst um die Zerbrechlichkeit unseres menschlichen Daseins.</description>
+      <category>Kultur</category>
+      <dc:creator>ZEIT ONLINE: Kultur - Rabab Haidar</dc:creator>
+      <pubDate>Tue, 05 May 2020 18:04:33 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:2a8a44c0-26f3-40e2-a037-8a26dbd30149}</guid>
+    </item>
+    <item>
+      <title>VW droht Niederlage im Diesel-Prozess vor dem Bundesgerichtshof</title>
+      <link>https://www.zeit.de/video/2020-05/6154412806001/vw-droht-niederlage-im-diesel-prozess-vor-dem-bundesgerichtshof</link>
+      <description>&lt;a href="https://www.zeit.de/video/2020-05/6154412806001/vw-droht-niederlage-im-diesel-prozess-vor-dem-bundesgerichtshof"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/video/2020-05/6154412806001/imagegroup/wide__148x84"&gt;&lt;/a&gt; Der erste Prozess über die Schadensersatzklage eines vom Dieselskandal betroffenen VW-Kunden begonnen. Die Klage wirft VW "vorsätzlich sittenwidrige Schädigung" vor.</description>
+      <category>Politik</category>
+      <dc:creator>ZEIT ONLINE: Politik - </dc:creator>
+      <pubDate>Tue, 05 May 2020 17:56:13 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:b43b88d2-21d4-4bf7-99ed-3a4c9f108f9b}</guid>
+    </item>
+    <item>
+      <title>Aufenthaltserlaubnis: Unter dem Radar</title>
+      <link>https://www.zeit.de/hamburg/2020-05/aufenthaltserlaubnis-coronavirus-krankenversicherung-behandlungen-anonym-medizinische-versorgung-hamburg</link>
+      <description>&lt;a href="https://www.zeit.de/hamburg/2020-05/aufenthaltserlaubnis-coronavirus-krankenversicherung-behandlungen-anonym-medizinische-versorgung-hamburg"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/hamburg/2020-05/ohnepapiere/wide__148x84"&gt;&lt;/a&gt; Für die rund 30.000 Menschen, die ohne Papiere und Versicherung in Hamburg leben, ist die Corona-Krise lebensgefährlich. Dabei gäbe es einfache Wege, ihnen zu helfen.</description>
+      <category>Hamburg</category>
+      <dc:creator>ZEIT ONLINE: Hamburg - Annika Lasarzik</dc:creator>
+      <pubDate>Tue, 05 May 2020 17:34:51 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:05297607-f51e-42dc-8cf7-e5076221c7cc}</guid>
+    </item>
+    <item>
+      <title>Aktienmarkt: Börse erholt sich von jüngsten Verlusten</title>
+      <link>https://www.zeit.de/wirtschaft/geldanlage/2020-05/aktienmarkt-deutschland-staatsanleihen-ezb-dax-corona-krise-wirtschaft</link>
+      <description>&lt;a href="https://www.zeit.de/wirtschaft/geldanlage/2020-05/aktienmarkt-deutschland-staatsanleihen-ezb-dax-corona-krise-wirtschaft"&gt;&lt;img style="float:left; margin-right:5px" src="https://img.zeit.de/wirtschaft/boerse/2020-05/dax-boerse/wide__148x84"&gt;&lt;/a&gt; Das Urteil zu den Anleihenkäufen der Europäischen Zentralbank konnte dem DAX nichts anhaben, die Anleger waren nur kurz nervös. Marktexperten geben sich optimistisch.</description>
+      <category>Boerse</category>
+      <dc:creator>ZEIT ONLINE: Boerse - Carsten Luther</dc:creator>
+      <pubDate>Tue, 05 May 2020 17:22:25 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:11a112af-a45b-4027-a3e3-9b1e2d7d1c5a}</guid>
+    </item>
+  </channel>
+</rss>

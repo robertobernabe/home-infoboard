@@ -11,13 +11,12 @@ final class RssFeedsTest extends TestCase
     protected function setUp(): void
     {
         $HERE = dirname(__FILE__);
-        $testFilePath = "{$HERE}/data/basic.ics";
 
-        $RSS_FEED_URLS = array(
-            "http://newsfeed.zeit.de/index",
+        $RSS_FEED_FILES = array(
+            "{$HERE}/data/newsfeed_zeit.rss",
         );
 
-        $this->instance  = new RssFeeds($RSS_FEED_URLS);
+        $this->instance  = new RssFeeds($RSS_FEED_FILES);
     }
 
     public function testCreateInstance(): void
@@ -26,5 +25,16 @@ final class RssFeedsTest extends TestCase
             RssFeeds::class,
             $this->instance
         );
+    }
+
+    public function testGetFeedsOfToday(): void
+    {
+        $data = $this->instance->getDayDataFrom(strtotime("Tue, 05 May 2020"));
+        $this->assertIsArray($data);
+        $this->assertEquals(9, count($data));
+
+        $data = $this->instance->getDayDataFrom(strtotime("Wed, 06 May 2020"));
+        $this->assertIsArray($data);
+        $this->assertEquals(6, count($data));
     }
 }
