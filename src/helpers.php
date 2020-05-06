@@ -64,5 +64,6 @@ $loc_de = setlocale(LC_ALL, 'de_DE@euro', 'de_DE', 'deu_deu');
 $weather_data_forecast = get_weather_forecast($CITY);
 $weather_data = new OpenWeatherMapWeatherJson(get_weather($CITY));
 $currentTime = time();
+$timestampToday = strtotime('today+00:00');
 //var_dump($weather_data);
 $rssFeeds = new RssFeeds($RSS_FEED_URLS);

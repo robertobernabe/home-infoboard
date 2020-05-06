@@ -67,7 +67,7 @@ require('helpers.php')
                 <tbody>
 
                     <?php
-                    foreach ($rssFeeds->getEntries() as $entry) {
+                    foreach ($rssFeeds->getDayDataToday() as $entry) {
 
                         echo "<tr>";
                         echo "<td>" . $entry->title . "</td>";

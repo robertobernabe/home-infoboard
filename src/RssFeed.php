@@ -53,5 +53,8 @@ final class RssFeeds
         return $data;
     }
 
-
+    public function getDayDataToday(): array
+    {
+        return $this->getDayDataFrom(strtotime('today+00:00'));
+    }
 }
